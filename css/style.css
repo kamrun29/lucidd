@@ -1,0 +1,295 @@
+/* font-family: 'Source Sans Pro', sans-serif; */
+/* font-family: 'Source Sans Pro', sans-serif; */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+/* header section start here  */
+header{
+    background-image: url(../images/background.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #fff !important;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-transform: capitalize;
+    position: relative;
+    padding: 0;
+    margin: 0;
+    
+}
+.navbar-light .navbar-nav .nav-link::before{
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 0%;
+    height: 3px;
+    background-color:#008ed6;
+    transition: .4s all ease-in-out;
+}
+.navbar-light .navbar-nav .nav-link:hover::before{
+    width: 44%;
+}
+.navbar-light .navbar-nav .nav-link::after{
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    right: 0;
+    width: 0%;
+    height: 3px;
+    background-color: #008ed6;
+    transition: .4s all ease-in-out;
+}
+.navbar-light .navbar-nav .nav-link:hover::after{
+    width: 44%;
+}
+.nav-item{
+    padding: 5px 10px;
+
+}
+.header-content h5{
+    color: #037ebd;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: bold;
+}
+.header-content h1{
+    color: #fff;
+    font-size: 43px;
+    padding-top: 15px;
+}
+
+.header-content p{
+    color: #999999;
+    font-family: 'Source Sans Pro', sans-serif;
+    padding-top: 15px;
+    padding-bottom: 35px;
+}
+.header-content{
+    font-family: 'Source Sans Pro', sans-serif;
+    
+}
+.hg{
+    height: 80vh;
+    position: relative;
+}
+.phone-part{
+    position: absolute;
+    right: 0;
+    transform: translateY(0px);
+    bottom: -69px;
+}
+.btn-download{
+    background-color: #008ed6;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bold;
+
+}
+.btn-download:hover{
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid #008ed6 ;
+}
+.btn-view{
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid #008ed6 ;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bold;
+
+
+}
+.btn-view:hover{
+    background-color: #008ed6;
+    color: #fff;
+
+}
+/* header section end here */
+
+/* feature section start here */
+.heading{
+    position: relative;
+
+}
+.heading::before{
+    content: '';
+    position: absolute;
+    height: 3px;
+    width: 0px;
+    bottom: 0;
+    left: 44%;
+    background-color: #008ed6;
+    transition: .4s all ease-in-out;
+
+}
+.heading::after{
+    content: '';
+    position: absolute;
+    height: 3px;
+    width: 0px;
+    bottom: 0;
+    right: 44%;
+    background-color: #008ed6;
+    transition: .4s all ease-in-out;
+}
+.feature:hover .heading::before{
+    width: 30px;
+
+}
+.feature:hover .heading::after{
+    width: 30px;
+
+}
+.heading h5{
+    text-transform: uppercase;
+    color: #008ed6;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    margin-top: 50px;
+}
+.heading h1{
+    
+font-size: 32px;
+    
+text-transform: capitalize;
+}
+.feature{
+
+}
+.feature h3{
+    font-size: 25px;
+    text-transform: capitalize;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bold;
+    padding-top: 20px;
+}
+
+.feature p{
+    
+color: #a7a7a7;
+    
+padding-top: 10px;
+}
+.icon{
+    
+width: 100px;
+    
+height: 100px;
+
+    
+text-align: center;
+    
+line-height: 100px;
+    
+border-radius: 50px;
+    
+font-size: 30px;
+    
+color: #008ed6;
+    
+border: 1px solid #e4e4e4;
+    
+margin: auto;
+}
+.heading-two{
+    position: relative;
+
+}
+.heading-two::before{
+    content: '';
+    position: absolute;
+    height: 3px;
+    width:0px;
+    bottom: 0;
+    left: 0;
+    background-color: #008ed6;
+    transition: .4s all ease-in-out;
+}
+.device:hover .heading-two::before{
+    width: 30px;
+
+}
+
+.heading-two::after{
+    content: '';
+    position: absolute;
+    height: 3px;
+    width:0px;
+    bottom: 0;
+    right: 88%;
+    background-color: #008ed6;
+    transition: .4s all ease-in-out;
+    
+}
+.device:hover .heading-two::after{
+    width: 30px;
+
+}
+.device{
+
+}
+.device h5{
+
+text-transform: uppercase;
+
+font-size: 16px;
+
+font-weight: bold;
+
+color: #008ed6;
+font-family: 'Source Sans Pro', sans-serif;
+}
+.device h1{
+
+text-transform: capitalize;
+}
+.device p{
+
+padding: 10px 0;
+}
+.device ul{
+    
+list-style: none;
+    
+margin: 0;
+}
+
+.device ul li{
+    
+margin: 5px 0;
+    
+font-size: 16px;
+}
+
+.device ul li i{
+    
+margin-right: 10px;
+    
+font-size: 14px;
+    
+color: #008ed6;
+}
+
+
+
+
+
+
+
+/* feature section end here */
+
+
+
